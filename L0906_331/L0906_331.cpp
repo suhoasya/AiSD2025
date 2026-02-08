@@ -3,9 +3,9 @@
 //ПМ-2025 Суханова Анастасия
 #include <iostream>
 #include "L0906_331.hpp"
+#include "../L902_327/L902_327.hpp"
 
 const int NMAX = 100;
-void backtrack(int a[], int k, int n);
 
 void process_solution(int a[], int k, int input) {
     for (int i = 1; i <= k; i++) {
